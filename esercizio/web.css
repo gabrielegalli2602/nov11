@@ -1,0 +1,107 @@
+@charset "UTF-8";
+
+body {
+	font-family: redaction;
+	background-color: orange;
+}
+#contenitore {
+	background-color: white;
+	width: 1200px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.immagine {
+	width: 350px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	display: block;
+	padding: 10px;
+}
+
+#testa {
+	text-align: center;
+	Width:100%;
+	padding-top: 10px;
+}
+
+#sinistra {
+	float: left;
+	background-color: yellow;
+	width: 20%;
+	height: 720px;
+	padding-top: 10px;
+}
+
+#centro {
+	float: left;
+	width: 60%;
+	height: auto;
+	text-align: center;
+}
+
+.giustificato {
+	text-align: justify;
+}
+
+
+#destra {
+	float: left;
+	background-color: yellow;
+	text-align: left;
+	height: 720px;
+	width:20%;
+	margin-top: 0px;
+	padding-top: 10px;
+}
+
+#piede {
+	background-color: gray;
+	clear: both;
+	color: white;
+	padding: 10px;
+	width: auto;
+}
+
+#piede-sinistro {
+	float: left;
+	width:45%;
+	margin-left: 150px;
+	padding: 30px 10px;
+}
+
+#piede-destro{
+	float: right;
+	width: 35%;
+	text-align: center;
+	padding-top: 10px;
+}
+
+
+#piede-destro td{
+	border: dotted blue;
+	padding: 10px 15px;
+	text-align: center;
+	font-size: 35px;
+	color: white;
+}
+
+#sinistra ul {
+	list-style: none;
+	text-align: left;
+	padding-inline-start: 5px;
+}
+
+li {
+	padding-bottom: 10px;
+}
+
+a{
+	text-decoration: none;
+}
+
+.clear {
+	clear: both;
+}
